@@ -1,0 +1,35 @@
+import { Routes, Route } from "react-router-dom";
+
+import {
+  Home,
+  New,
+  Clearance,
+  Women,
+  Mens,
+  Kids,
+  Shoes,
+  Accessories,
+  Home2,
+  Beauty,
+  Gift,
+  Flash,
+} from "../Pages";
+
+export const AllRoutes = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/new" element={<New />} />
+      <Route path="/clearance" element={<Clearance />} />
+      <Route path="/women" element={<Women />} />
+      <Route path="/mens" element={<Mens />} />
+      <Route path="/kids" element={<Kids />} />
+      <Route path="/shoes" element={<Shoes />} />
+      <Route path="/accessories" element={<Accessories />} />
+      <Route path="/home2" element={<Home2 />} />
+      <Route path="/beauty" element={<Beauty />} />
+      <Route path="/Gift" element={<Gift />} />
+      <Route path="/Flash" element={<Flash />} />
+    </Routes>
+  );
+};
