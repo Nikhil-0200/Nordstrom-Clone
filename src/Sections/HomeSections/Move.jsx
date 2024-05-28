@@ -15,7 +15,7 @@ export const Move = () => {
 
       <div className="py-14 relative">
         <img src={moveFirstImage} alt="ImageBanner" />
-        <div className="absolute top-[35%] left-[60%] transform translate(-50%, -50%)) text-start">
+        <div className="absolute top-[35%] left-[60%] transform translate(-50%, -50%) text-start">
           <p className="font-nikhil-bold text-[22px]">Shop & get rewarded!</p>
           <p className="text-[15px]">
             <span className="font-nikhil-bold">Ends May 27.</span> Online and in
