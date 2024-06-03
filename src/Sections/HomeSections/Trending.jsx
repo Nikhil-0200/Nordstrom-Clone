@@ -1,12 +1,16 @@
 import { SmallHeadings } from "../../Components/SmallHeadings";
 import { sandalBigImage } from "../../assets/Images";
+import { TrendingNow } from "../../Constants";
+import { SliderReal } from "../../Components/SliderReal";
 
 export const Trending = () => {
   return (
     <div className="my-4">
       <SmallHeadings text={"Trending Now"} />
 
-      <div className="h-[60vh] bg-slate-300 my-4"></div>
+      <div>
+        <SliderReal sliderConstant={TrendingNow} />
+      </div>
 
       <div className="my-20">
         <div className="font-nikhil-regular text-center">

@@ -1,6 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { SliderData } from "../Constants";
+import { Link } from "react-router-dom";
 
 export const SliderReal = ({ sliderConstant }) => {
   console.log(sliderConstant);
@@ -14,6 +15,7 @@ export const SliderReal = ({ sliderConstant }) => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 4.5,
+      slidesToSlide: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -27,6 +29,8 @@ export const SliderReal = ({ sliderConstant }) => {
   return (
     <div>
       <Carousel
+      swipeable={true}
+      draggable={true}
         responsive={responsive}
         className=" h-[80vh]"
       >
@@ -41,18 +45,22 @@ export const SliderReal = ({ sliderConstant }) => {
             </div>
 
             <div className="pt-4">
+              <Link to={ele.link}>
               <p className="font-nikhil-regular text-lg">{ele.title}</p>
+              </Link>
               <div>
-                <p className="font-nikhil-bold">
-                  ${ele.Currentprice}{" "}
+              {ele.Currentprice &&  <p className="font-nikhil-bold">             
+                  ${ele.Currentprice}{"  "}
                   <span className="font-nikhil-regular px-2">
                     ({ele.off} off)
                   </span>
-                </p>
+                </p>}
+               
               </div>
-              <p className="font-nikhil-regular line-through">
+              {ele.RealPrice && <p className="font-nikhil-regular line-through">
                 ${ele.RealPrice}
-              </p>
+              </p>}
+              
             </div>
           </div>
         ))}
