@@ -15,7 +15,8 @@ export const Home = () => {
     })
     
   return (
-    <div className="padding">
+    <div>
+      <div className="padding">
       <section>
         <Move />
         <Slider/>
@@ -24,8 +25,10 @@ export const Home = () => {
         <Slider2/>
         <Casual/>
         <Trending/>
-        <Footer/>
       </section>
     </div>
+    <Footer/>
+    </div>
+    
   );
 };

@@ -13,15 +13,16 @@ export const Move = () => {
         </button>
       </div>
 
-      <div className="py-14 relative">
+      <div className="py-14 relative max-md:hidden">
         <img src={moveFirstImage} alt="ImageBanner" />
+
         <div className="absolute top-[35%] left-[60%] transform translate(-50%, -50%) text-start">
-          <p className="font-nikhil-bold text-[22px]">Shop & get rewarded!</p>
-          <p className="text-[15px]">
+          <p className="font-nikhil-bold text-[22px] max-lg:text-sm">Shop & get rewarded!</p>
+          <p className="text-[15px] max-lg:text-sm">
             <span className="font-nikhil-bold">Ends May 27.</span> Online and in
             stores at Nordstrom Rack.
           </p>
-          <p className="text-[15px] flex gap-3">
+          <p className="text-[15px] flex gap-3 max-lg:text-sm">
             {" "}
             <span className="font-nikhil-bold">New Arrivals: </span>
             <Link>Women</Link> <Link>Men</Link> <Link>All</Link>

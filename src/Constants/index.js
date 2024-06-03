@@ -259,15 +259,7 @@ export const footerIcons = [
   {
     img: instaIcon,
     link: "#",
-  },
-  {
-    img: topArrowIcon,
-    link: "#",
-  },
-  {
-    img: downloadAppIcon,
-    link: "#",
-  },
+  }
 ];
 
 export const SliderData = [
