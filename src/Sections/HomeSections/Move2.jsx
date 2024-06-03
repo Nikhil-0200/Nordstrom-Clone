@@ -9,13 +9,20 @@ import {
   move2BigBanner,
   move2BottomBanner,
 } from "../../assets/Images";
+import { SliderReal } from "../../Components/SliderReal";
+import { SliderData } from "../../Constants";
+
+
 
 export const Move2 = () => {
   return (
     <div>
       <SmallHeadings text={"Save on Clearance Styles You Love"} />
-      <div className="h-[90vh] bg-slate-300"></div>
+      <div>
+      <SliderReal sliderConstant = {SliderData}/>
+      </div>
 
+      
       <div className="py-4">
         <img src={move2BigImage} alt="90 Degree Image" />
       </div>

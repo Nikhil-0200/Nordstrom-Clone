@@ -19,7 +19,7 @@ export const Home = () => {
     <div className="padding">
       <section>
         <Move />
-        <Slider />
+        <Slider/>
         <Video />
         <Move2/>
         <Slider2/>
