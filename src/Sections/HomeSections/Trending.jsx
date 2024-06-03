@@ -2,6 +2,8 @@ import { SmallHeadings } from "../../Components/SmallHeadings";
 import { sandalBigImage } from "../../assets/Images";
 import { TrendingNow } from "../../Constants";
 import { SliderReal } from "../../Components/SliderReal";
+import { SimpleSlider } from "../../Components/SimpleSlider";
+import { Score } from "../../Constants";
 
 export const Trending = () => {
   return (
@@ -21,7 +23,9 @@ export const Trending = () => {
           </p>
         </div>
 
-        <div className="h-[60vh] bg-slate-300 my-14"></div>
+        <div className=" my-14">
+          <SimpleSlider Score={Score}/>
+        </div>
       </div>
     </div>
   );

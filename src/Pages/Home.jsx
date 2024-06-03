@@ -12,7 +12,6 @@ import { footerIcons } from "../Constants";
 
 export const Home = () => {
   footerIcons.map((ele)=>{
-    console.log(ele);
     })
     
   return (

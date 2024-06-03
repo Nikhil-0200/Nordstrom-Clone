@@ -4,7 +4,6 @@ import { SliderData } from "../Constants";
 import { Link } from "react-router-dom";
 
 export const SliderReal = ({ sliderConstant }) => {
-  console.log(sliderConstant);
 
   const responsive = {
     superLargeDesktop: {

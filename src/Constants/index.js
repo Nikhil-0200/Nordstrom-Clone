@@ -652,3 +652,86 @@ export const TrendingNow = [
     RealPrice: "160.00"
   }
 ]
+
+
+export const Score = [
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzOTgwNzY2LjQ0MTA1NDg5ODM0My5qcGVn.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzODE3NTQ0LjE2MDI5OTExNTc1LmpwZWc=.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1711388393_106974.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705103620_136699.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709007271_165460.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1707762225_140638.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134389_108435.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705526897_159345.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134376_119062.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1704303532_172823.jpg"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709013305_185802.jpg"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA1OTQ5MzUxLjg0ODY3MzY5MzUwMC5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA4NTM2OTM0Ljg5ODIyNjM4Mzk2LmpwZWc=.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5MDE1NTQ0Ljk5MDg0MzU3MzI5MC5qcGVn.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5NzA2OTc3LjM5MTgzOTM4NTk4OS5qcGVn.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwOTk2NzcyLjgxMTIwMjg1OTU5Mi5qcGVn.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNTY3NzMyLjMxNjc5MzIxNDQ3MC5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjYwNTk1NDYzLjQ3Mzk4ODY0NTM4LmpwZWc=.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNDkxNjQ2LjEwMDE3NzU4MTczNC5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjY4MzY3MzU1Ljg2ODQ4NDU5MzEzOC5qcGVn.jpg?w=400&h=400&fit=cover"
+  },
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1645552575_161984.jpg"
+  },
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjU4MzQ0MDUxLjM3Mjg3NDM2NzQ0Mi5qcGVn.jpg?w=400&h=400&fit=cover"
+  }, 
+  {
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1656647086_102637.jpg"
+  }, 
+  {
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQ0OTU2MDExLjA1NzIyOTM2NTE1Ny5qcGVn.jpg?w=640&h=640&fit=cover"
+  },
+  {
+    img: "https://cdn.dashhudson.com/media/640/1628598956.37983440346.jpeg"
+  }, 
+  {
+    img: "https://cdn.dashhudson.com/media/640/1626312391.206982943516.jpeg"
+  }
+
+]
