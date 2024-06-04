@@ -13,6 +13,8 @@ import {
   Beauty,
   Gift,
   Flash,
+  SignIn,
+  SignInTwo
 } from "../Pages";
 
 export const AllRoutes = () => {
@@ -30,6 +32,8 @@ export const AllRoutes = () => {
       <Route path="/beauty" element={<Beauty />} />
       <Route path="/Gift" element={<Gift />} />
       <Route path="/Flash" element={<Flash />} />
+      <Route path="/signIn" element={<SignIn/>}/>
+      <Route path="/signInTwo" element={<SignInTwo/>}></Route>
     </Routes>
   );
 };

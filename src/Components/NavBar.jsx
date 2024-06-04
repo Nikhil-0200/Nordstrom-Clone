@@ -54,7 +54,7 @@ export function NavBar() {
 
         <div className="flex align-middle items-center gap-7 ">
             <div  className="flex align-middle items-center gap-7 max-lg:hidden">
-                <Link to="#">Sign In</Link>
+                <Link to="signIn">Sign In</Link>
           <Link to="#" className="flex gap-2">
             <img src={storeIcon} alt="storeIcon" />
             Stores

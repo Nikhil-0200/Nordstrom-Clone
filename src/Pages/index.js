@@ -10,6 +10,8 @@ import {Home2} from "./Home2";
 import {Beauty} from "./Beauty"; 
 import {Gift} from "./Gift";
 import {Flash} from "./Flash";
+import { SignIn } from "./SignIn";
+import { SignInTwo } from "./SignInTwo";
 
 export {
     Home,
@@ -23,5 +25,7 @@ export {
     Home2,
     Beauty,
     Gift,
-    Flash
+    Flash,
+    SignIn,
+    SignInTwo
 }

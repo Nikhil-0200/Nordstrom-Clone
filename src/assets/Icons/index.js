@@ -14,6 +14,10 @@ import instaIcon from "./instaIcon.svg";
 import topArrowIcon from "./topArrowIcon.svg";
 import downloadAppIcon from "./downloadAppIcon.svg";
 
+import cardIcon from "./cardIcon.svg";
+import cabIcon from "./cabIcon.svg";
+import nIcon from "./nIcon.svg";
+
 export {
   normsLogo,
   searchIcon,
@@ -29,4 +33,7 @@ export {
   instaIcon,
   topArrowIcon,
   downloadAppIcon,
+  cardIcon,
+  cabIcon,
+  nIcon,
 };
