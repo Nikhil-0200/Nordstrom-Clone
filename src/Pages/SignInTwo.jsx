@@ -1,8 +1,43 @@
 import { Footer } from "../Sections/FooterSections/Footer";
+import { useLocation } from "react-router-dom";
 import { Container, Text, Box, Input, Flex, Button } from "@chakra-ui/react";
 import { cardIcon, cabIcon, nIcon } from "../assets/Icons";
+import { useEffect, useState } from "react";
 
 export const SignInTwo = () => {
+  const location = useLocation();
+  const [formState, setFormState] = useState({
+    email: "",
+    firstName: "",
+    lastName: "",
+    password: "",
+  });
+
+  useEffect(() => {
+    if (location.state && location.state.email) {
+      setFormState((preValue) => ({
+        ...preValue,
+        email: location.state.email,
+      }));
+    }
+  }, [location.state]);
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    const newData = { ...formState, [name]: value };
+    setFormState(newData);
+  }
+
+  function handleSubmit() {
+    let storedData = JSON.parse(localStorage.getItem("data")) || [];
+
+    const storedNewData = [...storedData, formState];
+
+    localStorage.setItem("data", JSON.stringify(storedNewData));
+
+    console.log(storedNewData);
+  }
+
   return (
     <div>
       <Container maxW="md" className="font-nikhil-regular" my={10}>
@@ -36,26 +71,50 @@ export const SignInTwo = () => {
             </Text>
             <Box>
               <label className="font-nikhil-bold text-sm">Email</label>
-              <Input rounded="0" type="email" />
+              <Input
+                rounded="0"
+                type="email"
+                name="email"
+                value={formState.email}
+                onChange={handleChange}
+              />
             </Box>
             <Box>
               <label className="font-nikhil-bold text-sm">
                 First name <span>*</span>
               </label>
-              <Input rounded="0" type="text" />
+              <Input
+                rounded="0"
+                type="text"
+                name="firstName"
+                value={formState.firstName}
+                onChange={handleChange}
+              />
             </Box>
             <Box>
               <label className="font-nikhil-bold text-sm">
                 Last name <span>*</span>
               </label>
-              <Input rounded="0" type="text" />
+              <Input
+                rounded="0"
+                type="text"
+                name="lastName"
+                value={formState.lastName}
+                onChange={handleChange}
+              />
             </Box>
             <Box>
               <label className="font-nikhil-bold text-sm">
                 Create password
                 <span>*</span>
               </label>
-              <Input rounded="0" type="text" />
+              <Input
+                rounded="0"
+                type="text"
+                name="password"
+                value={formState.password}
+                onChange={handleChange}
+              />
             </Box>
             <Text className="text-sm w-[95%]">
               By creating an account, you agree to our{" "}
@@ -75,6 +134,7 @@ export const SignInTwo = () => {
           color="white"
           backgroundColor="#2563eb"
           fontSize="12px"
+          onClick={handleSubmit}
         >
           Create Account
         </Button>
