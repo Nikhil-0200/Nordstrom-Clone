@@ -3,8 +3,10 @@ import { useLocation } from "react-router-dom";
 import { Container, Text, Box, Input, Flex, Button } from "@chakra-ui/react";
 import { cardIcon, cabIcon, nIcon } from "../assets/Icons";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export const SignInTwo = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const [formState, setFormState] = useState({
     email: "",
@@ -35,7 +37,8 @@ export const SignInTwo = () => {
 
     localStorage.setItem("data", JSON.stringify(storedNewData));
 
-    console.log(storedNewData);
+    navigate("/")
+
   }
 
   return (

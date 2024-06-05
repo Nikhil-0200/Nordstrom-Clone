@@ -1,5 +1,5 @@
 import { moveFirstImage } from "../../assets/Images";
-import { Link } from "react-router-dom";
+import { Link, json } from "react-router-dom";
 import { AuthContext } from "../../Components/AuthContext";
 import { useContext, useEffect } from "react";
 import axios from "axios";
@@ -22,8 +22,9 @@ import {
 import React, { useState } from "react";
 
 export const Move = () => {
-
-  const {isAuth} = useContext(AuthContext);
+  const { isAuth, Login } = useContext(AuthContext);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const OverlayOne = () => (
     <ModalOverlay
@@ -36,34 +37,67 @@ export const Move = () => {
   const [overlay, setOverlay] = React.useState(<OverlayOne />);
 
   const [showPassword, setShowPassword] = useState(false);
-  const [user, setUser] = useState([])
+  const [user, setUser] = useState([]);
 
-  // console.log(JSON.parse(localStorage.getItem("data")));
-
-  async function fetchData(){
+  async function fetchData() {
     try {
       let res = await axios({
         method: "get",
-        url: JSON.parse(localStorage.getItem("data"))
-      })
-      console.log(res.config.url);
+        url: JSON.parse(localStorage.getItem("data")),
+      });
       setUser(res.config.url);
     } catch (error) {
       console.log("Error");
     }
   }
 
-  useEffect(()=>{
-    fetchData()
-  }, [])
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  function handleSubmit() {
+    let obj = {
+      emailID: email,
+      password: password,
+    };
+
+    const loginName = JSON.parse(
+        localStorage.getItem("userName")) || [];
+
+    let setLoginName;
+
+    user.forEach((ele) => {
+      if (ele.email === obj.emailID && ele.password === obj.password) {
+        setLoginName = [...loginName, ele.firstName];
+      } else {
+        console.log("No User Avaliable");
+      }
+
+      if (setLoginName) {
+        setLoginName = [...new Set(setLoginName)]
+        localStorage.setItem("userName", JSON.stringify(setLoginName));
+      }
+
+    });
+
+  const localStorageUserName = JSON.parse(localStorage.getItem("userName"));
+
+  if(localStorageUserName){
+    Login(localStorageUserName)
+  }
+
+  onClose()
+
+  }
+
 
   return (
     <div className="text-center font-nikhil-regular">
       <div>
         <h1 className="text-3xl font-nikhil-bold mb-2">
           More to Rack, easier and faster.
-          {/* <h1>{isAuth.loggedInStatus ? "Yes" : "No"}</h1> */}
         </h1>
+        {!isAuth.loggedInStatus && 
         <button
           onClick={() => {
             setOverlay(<OverlayOne />);
@@ -73,6 +107,7 @@ export const Move = () => {
         >
           Sign In or Create an Account
         </button>
+         }
 
         <Modal isCentered isOpen={isOpen} onClose={onClose}>
           {overlay}
@@ -99,12 +134,23 @@ export const Move = () => {
 
               <Box>
                 <label className="font-nikhil-bold text-sm">Email</label>
-                <Input rounded={0} type="email" ></Input>
+                <Input
+                  rounded={0}
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                ></Input>
               </Box>
 
               <Box position="relative">
                 <label className="font-nikhil-bold text-sm">Password</label>
-                <Input rounded={0} type={showPassword ? "text" : "password"} />
+                <Input
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  rounded={0}
+                  type={showPassword ? "text" : "password"}
+                />
                 <span
                   style={{
                     position: "absolute",
@@ -141,6 +187,7 @@ export const Move = () => {
                 color="white"
                 backgroundColor="#2563eb"
                 fontSize="12px"
+                onClick={handleSubmit}
               >
                 Sign In
               </Button>

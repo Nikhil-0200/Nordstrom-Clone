@@ -3,6 +3,8 @@ import { Container, Text, Box, Input, Flex, Button } from "@chakra-ui/react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+
+
 export const SignIn = () => {
     const navigate = useNavigate();
     const [email, setEmail] = useState("")
@@ -17,7 +19,7 @@ export const SignIn = () => {
         <Box>
           <Flex flexDirection="column" gap={5}>
             <Text className="font-nikhil-bold text-2xl">
-              Sign In | Create Account
+              Sign In | Create Account | <span className="text-[#6275c9] underline" onClick={()=> navigate("/")} >Login</span>
             </Text>
             <Text>Enter your email to get started.</Text>
             <Box>

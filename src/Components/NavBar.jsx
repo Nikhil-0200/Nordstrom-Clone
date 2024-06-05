@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { AuthContext } from "./AuthContext";
 import { Link } from "react-router-dom";
 import {
   bagIcon,
@@ -7,12 +7,19 @@ import {
   purchaseIcon,
   searchIcon,
   storeIcon,
-  menuIcon
+  menuIcon,
 } from "../assets/Icons";
 import { NavLinks } from "../Constants";
 import { DrawerExample } from "./menu";
+import { Popover, PopoverTrigger, Portal, PopoverContent, PopoverArrow , PopoverHeader, PopoverCloseButton , PopoverBody, Button, PopoverFooter } from "@chakra-ui/react";
 
 export function NavBar() {
+  const { isAuth, Logout } = useContext(AuthContext);
+
+  const handleLogout = ()=>{
+    Logout()
+  }
+
   return (
     <nav>
       <div className="bg-black text-white text-center text-[16px] py-1.5 font-nikhil-regular">
@@ -33,10 +40,10 @@ export function NavBar() {
         className="flex justify-between mx-4 py-8 border-b-[1.5px] border-gray align-middle font-nikhil-regular text-[17px] flex-wrap relative max-lg:px-5"
       >
         <div className="flex items-center gap-5 ">
-            <div className="lg:hidden">
-              <DrawerExample/>  
-            </div>
-            
+          <div className="lg:hidden">
+            <DrawerExample />
+          </div>
+
           <Link to="/">
             <img src={normsLogo} alt="Norms-Logo" width={120} height={100} />
           </Link>
@@ -53,20 +60,42 @@ export function NavBar() {
         </div>
 
         <div className="flex align-middle items-center gap-7 ">
-            <div  className="flex align-middle items-center gap-7 max-lg:hidden">
-                <Link to="signIn">Sign In</Link>
-          <Link to="#" className="flex gap-2">
-            <img src={storeIcon} alt="storeIcon" />
-            Stores
-          </Link>
-          <Link to="#" className="flex gap-2">
-            <img src={purchaseIcon} alt="purchaseIcon" />
-            Purchases
-          </Link>
-            </div>
-          
+          <div className="flex align-middle items-center gap-7 max-lg:hidden">
+            {isAuth.loggedInStatus ? (
+              <Popover className="font-nikhil-regular">
+                <PopoverTrigger>
+                  <Link>
+                    Hi, {isAuth.token}
+                  </Link>
+                </PopoverTrigger>
+                <Portal>
+                  <PopoverContent>
+                    <PopoverArrow />
+                    <PopoverHeader className="font-nikhil-bold text-xl">Logout</PopoverHeader>
+                    <PopoverCloseButton />
+                    <PopoverBody>
+                      <Button  onClick={handleLogout} colorScheme="blue">Logout</Button>
+                    </PopoverBody>
+                    <PopoverFooter>Click to Logout</PopoverFooter>
+                  </PopoverContent>
+                </Portal>
+              </Popover>
+            ) : (
+              <Link to="signIn">Sign In</Link>
+            )}
+
+            <Link to="#" className="flex gap-2">
+              <img src={storeIcon} alt="storeIcon" />
+              Stores
+            </Link>
+            <Link to="#" className="flex gap-2">
+              <img src={purchaseIcon} alt="purchaseIcon" />
+              Purchases
+            </Link>
+          </div>
+
           <Link to="#" className="max-lg:absolute top-10 right-5">
-            <img src={bagIcon} alt="bagIcon"/>
+            <img src={bagIcon} alt="bagIcon" />
           </Link>
         </div>
       </div>
@@ -76,8 +105,10 @@ export function NavBar() {
           <Link
             style={{
               color:
-                ele.label === "Clearance" ? "red"
-                  : ele.label === "Flash Events" || ele.label === "New" ? "#186ADC"
+                ele.label === "Clearance"
+                  ? "red"
+                  : ele.label === "Flash Events" || ele.label === "New"
+                  ? "#186ADC"
                   : "",
             }}
             key={ele.to}

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-
+import { Private } from "./Private";
 import {
   Home,
   New,
@@ -21,7 +21,12 @@ export const AllRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/new" element={<New />} />
+      <Route path="/new" element={
+      <Private>
+        <New />
+      </Private>
+      } />
+      
       <Route path="/clearance" element={<Clearance />} />
       <Route path="/women" element={<Women />} />
       <Route path="/mens" element={<Mens />} />
