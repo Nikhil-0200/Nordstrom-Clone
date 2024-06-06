@@ -27,7 +27,7 @@ export const AllRoutes = () => {
       </Private>
       } />
       
-      <Route path="/clearance" element={<Clearance />} />
+      {/* <Route path="/clearance" element={<Clearance />} />
       <Route path="/women" element={<Women />} />
       <Route path="/mens" element={<Mens />} />
       <Route path="/kids" element={<Kids />} />
@@ -38,7 +38,7 @@ export const AllRoutes = () => {
       <Route path="/Gift" element={<Gift />} />
       <Route path="/Flash" element={<Flash />} />
       <Route path="/signIn" element={<SignIn/>}/>
-      <Route path="/signInTwo" element={<SignInTwo/>}></Route>
+      <Route path="/signInTwo" element={<SignInTwo/>}></Route> */}
     </Routes>
   );
 };

@@ -1,6 +1,7 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useRef, useEffect } from "react";
 import { AuthContext } from "./AuthContext";
 import { Link } from "react-router-dom";
+import { PopoverDiv } from "./PopoverDiv";
 import {
   bagIcon,
   normsLogo,
@@ -11,14 +12,38 @@ import {
 } from "../assets/Icons";
 import { NavLinks } from "../Constants";
 import { DrawerExample } from "./menu";
-import { Popover, PopoverTrigger, Portal, PopoverContent, PopoverArrow , PopoverHeader, PopoverCloseButton , PopoverBody, Button, PopoverFooter } from "@chakra-ui/react";
+import { Popover, PopoverTrigger, Portal, PopoverContent, PopoverArrow , PopoverHeader, PopoverCloseButton , PopoverBody, Button, PopoverFooter, Container } from "@chakra-ui/react";
 
 export function NavBar() {
   const { isAuth, Logout } = useContext(AuthContext);
+  const [popDiv, setPopDiv] = useState(false);
+  const popoverRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (popoverRef.current && !popoverRef.current.contains(event.target)) {
+      setPopDiv(false);
+    }
+  };
+
+  useEffect(() => {
+    if (popDiv) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [popDiv]);
 
   const handleLogout = ()=>{
     Logout()
   }
+
+
+
+
 
   return (
     <nav>
@@ -62,13 +87,13 @@ export function NavBar() {
         <div className="flex align-middle items-center gap-7 ">
           <div className="flex align-middle items-center gap-7 max-lg:hidden">
             {isAuth.loggedInStatus ? (
-              <Popover className="font-nikhil-regular">
+              <Popover>
                 <PopoverTrigger>
                   <Link>
                     Hi, {isAuth.token}
                   </Link>
                 </PopoverTrigger>
-                <Portal>
+                <Portal > 
                   <PopoverContent>
                     <PopoverArrow />
                     <PopoverHeader className="font-nikhil-bold text-xl">Logout</PopoverHeader>
@@ -112,12 +137,17 @@ export function NavBar() {
                   : "",
             }}
             key={ele.to}
-            to={ele.to}
+            // to={ele.to}
+            onClick={()=> setPopDiv(true)}
           >
             {ele.label}
           </Link>
         ))}
       </div>
+      <div ref={popoverRef}>
+      {popDiv ? <PopoverDiv/> : ""}
+      </div>
+      
     </nav>
   );
 }

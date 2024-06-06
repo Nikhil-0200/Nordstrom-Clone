@@ -47,7 +47,6 @@ export const Move = () => {
       });
       setUser(res.config.url);
     } catch (error) {
-      console.log("Error");
     }
   }
 

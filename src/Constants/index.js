@@ -259,7 +259,7 @@ export const footerIcons = [
   {
     img: instaIcon,
     link: "#",
-  }
+  },
 ];
 
 export const SliderData = [
@@ -335,7 +335,6 @@ export const SliderData = [
   },
 ];
 
-
 export const SliderData2 = [
   {
     img: "https://n.nordstrommedia.com/it/e89a226d-c8cd-414c-86b3-59b0bc6447c8.jpeg?h=1224&w=1224",
@@ -391,8 +390,8 @@ export const SliderData2 = [
     img: "https://n.nordstrommedia.com/it/97033ffc-cd7e-4d24-862c-515e215d3e61.jpeg?h=1224&w=1224",
     title: "New-In Designer Sunglasses",
     desc: "Event ends in 5 hours and 18 minutes",
-  }
-]
+  },
+];
 
 export const SliderData3 = [
   {
@@ -406,7 +405,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "49.97",
     off: "43%",
-    RealPrice: "88.00"
+    RealPrice: "88.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/c5616d52-1d87-4884-b70d-cecd52d75ec7.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -414,7 +413,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "129.97",
     off: "35%",
-    RealPrice: "200.00"
+    RealPrice: "200.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/9a9bdd6d-30bd-4cb1-8b22-bb6b0fd8fb6f.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -422,7 +421,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "99.97",
     off: "50%",
-    RealPrice: "200.00"
+    RealPrice: "200.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/601a2a1c-ac89-40f7-ae27-3fa9f97f1b43.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -430,7 +429,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "139.97",
     off: "30%",
-    RealPrice: "200.00"
+    RealPrice: "200.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/7ef93b43-7842-4596-a74b-754dcfcc4a82.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -438,7 +437,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "74.97",
     off: "25%",
-    RealPrice: "100.00"
+    RealPrice: "100.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/a5e4f668-c519-4554-95e2-d0fb5eb357b1.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -446,7 +445,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "39.97",
     off: "20%",
-    RealPrice: "50.00"
+    RealPrice: "50.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/d9d91505-b684-46db-8f15-f650454e5206.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -454,7 +453,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "89.97",
     off: "40%",
-    RealPrice: "150.00"
+    RealPrice: "150.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/f458bd95-23f1-423f-b684-a5a8dde72a04.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -462,7 +461,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "49.97",
     off: "28%",
-    RealPrice: "70.00"
+    RealPrice: "70.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/0c08a580-f45e-46c5-b5b2-a101c48e5183.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -470,7 +469,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "59.97",
     off: "33%",
-    RealPrice: "90.00"
+    RealPrice: "90.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/c99d944e-3ed8-4d48-942e-bec94a88b715.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -478,7 +477,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "79.97",
     off: "47%",
-    RealPrice: "150.00"
+    RealPrice: "150.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/dff5f184-6ecc-4c39-a597-1f8c25bf33ae.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -486,7 +485,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "129.97",
     off: "48%",
-    RealPrice: "250.00"
+    RealPrice: "250.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/a5e4f668-c519-4554-95e2-d0fb5eb357b1.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -494,7 +493,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "74.97",
     off: "42%",
-    RealPrice: "130.00"
+    RealPrice: "130.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/9b9b0552-0fd2-442a-8ffe-4fa43d62cc62.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -502,7 +501,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "69.97",
     off: "30%",
-    RealPrice: "100.00"
+    RealPrice: "100.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/b12ca7fc-62cd-4efe-8bac-1f6bb78b10de.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -510,7 +509,7 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "119.97",
     off: "25%",
-    RealPrice: "160.00"
+    RealPrice: "160.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/e6f6cf67-29c4-4a63-9a7d-c285ecf67d08.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -518,9 +517,9 @@ export const SliderData3 = [
     link: "#",
     Currentprice: "99.97",
     off: "45%",
-    RealPrice: "180.00"
+    RealPrice: "180.00",
   },
-] 
+];
 
 export const TrendingNow = [
   {
@@ -529,7 +528,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "119.97",
     off: "29%",
-    RealPrice: "170.00"
+    RealPrice: "170.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/288a514b-29bf-4723-b0ce-51919c5e35c5.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -537,7 +536,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "89.97",
     off: "40%",
-    RealPrice: "150.00"
+    RealPrice: "150.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/2309c338-6336-4ab8-bf0d-a2e42f5fb52d.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -545,7 +544,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "99.97",
     off: "38%",
-    RealPrice: "160.00"
+    RealPrice: "160.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/0a611b50-4b8e-45c1-ad2a-8fbdee20a565.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -553,7 +552,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "79.97",
     off: "30%",
-    RealPrice: "110.00"
+    RealPrice: "110.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/c5616d52-1d87-4884-b70d-cecd52d75ec7.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -561,7 +560,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "69.97",
     off: "44%",
-    RealPrice: "125.00"
+    RealPrice: "125.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/a25e571a-3ad5-4221-b6ba-b5092b866d33.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -569,7 +568,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "99.97",
     off: "23%",
-    RealPrice: "130.00"
+    RealPrice: "130.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/7e9049b4-bd5e-46ff-93ca-e48f4ed25064.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -577,7 +576,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "79.97",
     off: "47%",
-    RealPrice: "150.00"
+    RealPrice: "150.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/0b8c9e1e-0920-4259-803b-1c8ba1aa064c.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -585,7 +584,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "119.97",
     off: "33%",
-    RealPrice: "180.00"
+    RealPrice: "180.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/d0c8b758-8d9a-4b33-a698-56c123454efa.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -593,7 +592,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "99.97",
     off: "28%",
-    RealPrice: "140.00"
+    RealPrice: "140.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/4e799eea-36b4-463e-830a-fd048471a5f6.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -601,7 +600,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "89.97",
     off: "25%",
-    RealPrice: "120.00"
+    RealPrice: "120.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/c4136a44-23aa-4fe1-9cd8-5008ed08d821.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -609,7 +608,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "109.97",
     off: "27%",
-    RealPrice: "150.00"
+    RealPrice: "150.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/ec7487b9-95e4-4b37-8579-46a441b6c8fc.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -617,7 +616,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "89.97",
     off: "34%",
-    RealPrice: "135.00"
+    RealPrice: "135.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/dd670a0a-46de-47bf-a1ea-c958ffa0260a.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -625,7 +624,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "129.97",
     off: "24%",
-    RealPrice: "170.00"
+    RealPrice: "170.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/4e799eea-36b4-463e-830a-fd048471a5f6.jpeg?q=45&dpr=2&h=365.31&w=230",
@@ -633,7 +632,7 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "79.97",
     off: "38%",
-    RealPrice: "130.00"
+    RealPrice: "130.00",
   },
   {
     img: "https://n.nordstrommedia.com/id/sr3/a5e4f668-c519-4554-95e2-d0fb5eb357b1.jpeg?q=45&fit=fill&fm=jpg&dpr=2&h=408&w=266",
@@ -641,89 +640,220 @@ export const TrendingNow = [
     link: "#",
     Currentprice: "109.97",
     off: "31%",
-    RealPrice: "160.00"
-  }
-]
-
+    RealPrice: "160.00",
+  },
+];
 
 export const Score = [
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzOTgwNzY2LjQ0MTA1NDg5ODM0My5qcGVn.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzOTgwNzY2LjQ0MTA1NDg5ODM0My5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzODE3NTQ0LjE2MDI5OTExNTc1LmpwZWc=.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzEzODE3NTQ0LjE2MDI5OTExNTc1LmpwZWc=.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1711388393_106974.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1711388393_106974.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705103620_136699.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705103620_136699.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709007271_165460.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709007271_165460.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1707762225_140638.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1707762225_140638.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134389_108435.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134389_108435.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705526897_159345.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1705526897_159345.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134376_119062.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1706134376_119062.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1704303532_172823.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1704303532_172823.jpg",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709013305_185802.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1709013305_185802.jpg",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA1OTQ5MzUxLjg0ODY3MzY5MzUwMC5qcGVn.jpg?w=640&h=640&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA1OTQ5MzUxLjg0ODY3MzY5MzUwMC5qcGVn.jpg?w=640&h=640&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA4NTM2OTM0Ljg5ODIyNjM4Mzk2LmpwZWc=.jpg?w=640&h=640&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNzA4NTM2OTM0Ljg5ODIyNjM4Mzk2LmpwZWc=.jpg?w=640&h=640&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5MDE1NTQ0Ljk5MDg0MzU3MzI5MC5qcGVn.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5MDE1NTQ0Ljk5MDg0MzU3MzI5MC5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5NzA2OTc3LjM5MTgzOTM4NTk4OS5qcGVn.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjg5NzA2OTc3LjM5MTgzOTM4NTk4OS5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwOTk2NzcyLjgxMTIwMjg1OTU5Mi5qcGVn.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwOTk2NzcyLjgxMTIwMjg1OTU5Mi5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNTY3NzMyLjMxNjc5MzIxNDQ3MC5qcGVn.jpg?w=640&h=640&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNTY3NzMyLjMxNjc5MzIxNDQ3MC5qcGVn.jpg?w=640&h=640&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjYwNTk1NDYzLjQ3Mzk4ODY0NTM4LmpwZWc=.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjYwNTk1NDYzLjQ3Mzk4ODY0NTM4LmpwZWc=.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNDkxNjQ2LjEwMDE3NzU4MTczNC5qcGVn.jpg?w=640&h=640&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjkwNDkxNjQ2LjEwMDE3NzU4MTczNC5qcGVn.jpg?w=640&h=640&fit=cover",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjY4MzY3MzU1Ljg2ODQ4NDU5MzEzOC5qcGVn.jpg?w=400&h=400&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjY4MzY3MzU1Ljg2ODQ4NDU5MzEzOC5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1645552575_161984.jpg"
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1645552575_161984.jpg",
   },
   {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjU4MzQ0MDUxLjM3Mjg3NDM2NzQ0Mi5qcGVn.jpg?w=400&h=400&fit=cover"
-  }, 
-  {
-    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1656647086_102637.jpg"
-  }, 
-  {
-    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQ0OTU2MDExLjA1NzIyOTM2NTE1Ny5qcGVn.jpg?w=640&h=640&fit=cover"
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjU4MzQ0MDUxLjM3Mjg3NDM2NzQ0Mi5qcGVn.jpg?w=400&h=400&fit=cover",
   },
   {
-    img: "https://cdn.dashhudson.com/media/640/1628598956.37983440346.jpeg"
-  }, 
+    img: "https://dashhudson-static.s3.amazonaws.com/media/video_frames/1656647086_102637.jpg",
+  },
   {
-    img: "https://cdn.dashhudson.com/media/640/1626312391.206982943516.jpeg"
-  }
+    img: "https://images.dashhudson.com/aHR0cHM6Ly9jZG4uZGFzaGh1ZHNvbi5jb20vbWVkaWEvZnVsbC8xNjQ0OTU2MDExLjA1NzIyOTM2NTE1Ny5qcGVn.jpg?w=640&h=640&fit=cover",
+  },
+  {
+    img: "https://cdn.dashhudson.com/media/640/1628598956.37983440346.jpeg",
+  },
+  {
+    img: "https://cdn.dashhudson.com/media/640/1626312391.206982943516.jpeg",
+  },
+];
 
-]
+export const navBarPopup = [
+  {
+    Row1: [
+      {
+        title: "Clearance: Get Inspired",
+        links: [
+          {
+            label: "Extra Savings on Select Beauty Styles",
+            link: "#",
+          },
+          {
+            label: "Limited-Time Sales",
+            links: "#",
+          },
+          {
+            label: "Best Sellers",
+            link: "#",
+          },
+          {
+            label: "New Markdowns",
+            link: "#",
+          },
+          {
+            label: "Clearance Under $25",
+            link: "#",
+          },
+          {
+            label: "Clearance Under $50",
+            link: "#",
+          },
+          {
+            label: "Clearance Under $100",
+            link: "#",
+          },
+        ],
+      },
+    ],
+    Row2: [
+      {
+        title: "Women",
+        links: [
+          {
+            label: "Clothing",
+            link: "#",
+          },
+          {
+            label: "Shoes",
+            link: "#",
+          },
+          {
+            label: "Handbags",
+            link: "#",
+          },
+          {
+            label: "Sunglasses & Eyewear",
+            link: "#",
+          },
+          {
+            label: "Jewelry",
+            link: "#",
+          },
+          {
+            label: "Watches",
+            link: "#",
+          },
+          {
+            label: "Accessories",
+            link: "#",
+          },
+          {
+            label: "Beauty",
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Men",
+        links: [
+          {
+            label: "Clothing",
+            link: "#",
+          },
+          {
+            label: "Shoes",
+            link: "#",
+          },
+          {
+            label: "Sunglasses & Eyewear",
+            link: "#",
+          },
+          {
+            label: "Watches",
+            link: "#",
+          },
+          {
+            label: "Accessories",
+            link: "#",
+          },
+        ],
+      },
+      {
+        title: "Kids",
+        links: [
+          {
+            label: "Girls' Clothing",
+            link: "#",
+          },
+          {
+            label: "Girls' Shoes",
+            link: "#",
+          },
+          {
+            label: "Boys' Clothing",
+            link: "#",
+          },
+          {
+            label: "Boys' Shoes",
+            link: "#",
+          },
+          {
+            label: "Kids' Shoes",
+            link: "#",
+          },
+          {
+            label: "Baby Clothing & Shoes",
+            link: "#",
+          },
+        ]
+      }
+    ],
+  },
+];
