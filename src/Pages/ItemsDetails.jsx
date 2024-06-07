@@ -3,6 +3,8 @@ import { Loading } from "../Components/Loading";
 import { Error } from "../Components/Error";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import {LeftSection} from "../Components/LeftSection";
+import {RightSection} from "../Components/RightSection";
 
 export const ItemsDetails = () => {
   const [data, setData] = useState([]);
@@ -38,16 +40,24 @@ export const ItemsDetails = () => {
   }
 
   return (
-    <div>
-      ItemsDetails Page
+    <section className="flex px-5 py-10 justify-between max-sm:flex-col max-container">
+      <div className="w-[40%] max-sm:w-full">
+        {data.map((ele)=>(
+            <LeftSection 
+            {...ele}
+            key={ele.id}
+            />
+        ))}
+      </div>
 
+      <div className="lg:w-[55%]">
       {data.map((ele)=>(
-        <div>
-           <h1>{ele.price}</h1>
-        <h1>{ele.productName}</h1> 
-        </div>
-        
-      ))}
-    </div>
-  );
+             <RightSection
+            data={ele}
+            key={ele.id}
+            />
+        ))}
+      </div>
+    </section>
+  )
 };
