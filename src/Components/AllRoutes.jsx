@@ -31,22 +31,33 @@ export const AllRoutes = () => {
       </Private>
       } />
       
-      {/* <Route path="/clearance" element={<Clearance />} />
-      <Route path="/women" element={<Women />} />
-      <Route path="/mens" element={<Mens />} />
-      <Route path="/kids" element={<Kids />} />
-      <Route path="/shoes" element={<Shoes />} />
-      <Route path="/accessories" element={<Accessories />} />
-      <Route path="/home2" element={<Home2 />} />
-      <Route path="/beauty" element={<Beauty />} />
-      <Route path="/Gift" element={<Gift />} />
-      <Route path="/Flash" element={<Flash />} />
-      <Route path="/signIn" element={<SignIn/>}/>
-      <Route path="/signInTwo" element={<SignInTwo/>}></Route> */}
-      <Route path="/items" element={<ItemsPage/>}/>
-      <Route path="/items/details/:id" element={<ItemsDetails/>}/>
-      <Route path="/cart" element={<Cart/>} />
-      <Route path="/payment" element={<Payment/>} />
+      <Route path="/signIn" element={<SignIn/>}/> 
+      <Route path="/signInTwo" element={<SignInTwo/>}></Route> 
+
+      <Route path="/items" element={
+        <Private>
+        <ItemsPage/>
+        </Private>
+        }/>
+
+      <Route path="/items/details/:id" element={
+        <Private>
+        <ItemsDetails/>
+        </Private>
+        }/>
+        
+
+      <Route path="/cart" element={
+        <Private>
+        <Cart/>
+        </Private>
+        } />
+
+      <Route path="/payment" element={
+        <Private>
+        <Payment/>
+        </Private>
+        } />
     </Routes>
   );
 };
