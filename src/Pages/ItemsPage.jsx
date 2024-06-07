@@ -51,7 +51,6 @@ export const ItemsPage = () => {
       <Grid templateColumns="repeat(4, 1fr)" gap={6}>
         {data.map((ele, index) => (
           <GridItem key={index} onClick={()=> handleClick(ele.productName)}>
-            <h1>{ele.id}</h1>
             <Box className="flex flex-col gap-4">
               <div className=" h-[350px] object-cover relative">
                 <div className=" bg-[#191a1b] bg-opacity-[0.03] absolute h-[350px] w-[100%] z-[1]"></div>
