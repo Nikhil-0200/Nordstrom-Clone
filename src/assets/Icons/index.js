@@ -18,6 +18,9 @@ import cardIcon from "./cardIcon.svg";
 import cabIcon from "./cabIcon.svg";
 import nIcon from "./nIcon.svg";
 
+import minus from "./icons8-minus-24 (2).png";
+import plus2 from "./icons8-plus-24 (1).png";
+
 export {
   normsLogo,
   searchIcon,
@@ -36,4 +39,6 @@ export {
   cardIcon,
   cabIcon,
   nIcon,
+  minus,
+  plus2,
 };

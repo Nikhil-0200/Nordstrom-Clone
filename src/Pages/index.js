@@ -14,6 +14,10 @@ import { SignIn } from "./SignIn";
 import { SignInTwo } from "./SignInTwo";
 import { ItemsPage } from "./ItemsPage";
 import { ItemsDetails } from "./ItemsDetails";
+import Cart from "./Cart";
+import Payment from "./Payment";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export {
     Home,
@@ -31,5 +35,7 @@ export {
     SignIn,
     SignInTwo,
     ItemsPage,
-    ItemsDetails
+    ItemsDetails,
+    Cart,
+    Payment,
 }

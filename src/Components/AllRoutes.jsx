@@ -16,7 +16,9 @@ import {
   SignIn,
   SignInTwo,
   ItemsPage,
-  ItemsDetails
+  ItemsDetails,
+  Cart,
+  Payment
 } from "../Pages";
 
 export const AllRoutes = () => {
@@ -43,6 +45,8 @@ export const AllRoutes = () => {
       <Route path="/signInTwo" element={<SignInTwo/>}></Route> */}
       <Route path="/items" element={<ItemsPage/>}/>
       <Route path="/items/details/:id" element={<ItemsDetails/>}/>
+      <Route path="/cart" element={<Cart/>} />
+      <Route path="/payment" element={<Payment/>} />
     </Routes>
   );
 };

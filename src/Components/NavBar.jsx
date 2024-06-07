@@ -42,9 +42,6 @@ export function NavBar() {
   }
 
 
-
-
-
   return (
     <nav>
       <div className="bg-black text-white text-center text-[16px] py-1.5 font-nikhil-regular">
@@ -74,7 +71,7 @@ export function NavBar() {
           </Link>
         </div>
 
-        <div className="border-[1px] border-black p-5 py-2.5 flex gap-5 w-[45%] max-lg:w-full m-auto max-lg:my-5 max-lg:mx-5">
+        <div className="border-[1px] border-black p-2.5 my-2 py-2.5 flex gap-5 w-[45%] max-lg:w-full m-auto max-lg:my-5 max-lg:mx-5">
           <img src={searchIcon} alt="" />
           <input
             className=" focus:border-none focus:ring-0 w-[95%]"
@@ -119,7 +116,7 @@ export function NavBar() {
             </Link>
           </div>
 
-          <Link to="#" className="max-lg:absolute top-10 right-5">
+          <Link to="/cart" className="max-lg:absolute top-10 right-5">
             <img src={bagIcon} alt="bagIcon" />
           </Link>
         </div>
