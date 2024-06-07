@@ -12,6 +12,8 @@ import {Gift} from "./Gift";
 import {Flash} from "./Flash";
 import { SignIn } from "./SignIn";
 import { SignInTwo } from "./SignInTwo";
+import { ItemsPage } from "./ItemsPage";
+import { ItemsDetails } from "./ItemsDetails";
 
 export {
     Home,
@@ -27,5 +29,7 @@ export {
     Gift,
     Flash,
     SignIn,
-    SignInTwo
+    SignInTwo,
+    ItemsPage,
+    ItemsDetails
 }

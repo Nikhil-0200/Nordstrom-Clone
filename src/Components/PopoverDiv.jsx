@@ -29,7 +29,7 @@ export const PopoverDiv = () => {
                             <div className="font-nikhil-regular pt-2">
                                 {data.links.map((link, linkIndex)=>(
                                     <ul key={`row2LinkIndex - ${linkIndex}`}>
-                                        <Link to="#">
+                                        <Link to="/items">
                                         <li className="py-1.5">{link.label}</li>
                                         </Link>
                                     </ul>

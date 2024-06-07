@@ -14,7 +14,9 @@ import {
   Gift,
   Flash,
   SignIn,
-  SignInTwo
+  SignInTwo,
+  ItemsPage,
+  ItemsDetails
 } from "../Pages";
 
 export const AllRoutes = () => {
@@ -39,6 +41,8 @@ export const AllRoutes = () => {
       <Route path="/Flash" element={<Flash />} />
       <Route path="/signIn" element={<SignIn/>}/>
       <Route path="/signInTwo" element={<SignInTwo/>}></Route> */}
+      <Route path="/items" element={<ItemsPage/>}/>
+      <Route path="/items/details/:id" element={<ItemsDetails/>}/>
     </Routes>
   );
 };
